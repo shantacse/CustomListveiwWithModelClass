@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/Version"
+        android:layout_width="00dp"
+        android:layout_height="wrap_content"
+        android:text="Version"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_weight="0.20"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/androidName"
+        android:layout_width="00dp"
+        android:layout_height="wrap_content"
+        android:text="Android Name"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_weight="0.60"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/release"
+        android:layout_width="00dp"
+        android:layout_height="wrap_content"
+        android:text="Release"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_weight="0.20"
+        android:textStyle="italic"/>
+
+</LinearLayout>
